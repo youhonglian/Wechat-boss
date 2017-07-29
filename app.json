@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/company/index",
+    "pages/jobinfo/jobinfo",
+    "pages/messages/index",
+    "pages/my/index",
+    "pages/resume/resume",
+    "pages/concact/concact",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#00CDCD",
+    "navigationBarTitleText": "Boss直聘",
+    "navigationBarTextStyle":"white",
+    "enablePullDown":true,
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"#dddddd",
+    "selectedColor":"#00CDCD",
+    "borderStyle":"white",
+    "backgroundColor":"ffffff",
+    "list":[{
+      "pagePath":"pages/company/index",
+      "iconPath":"image/company.png",
+      "selectedIconPath":"image/company_press.png",
+      "text":"公司"
+      },
+    {
+      "pagePath":"pages/messages/index",
+      "iconPath":"image/message.png",
+      "selectedIconPath":"image/message_press.png",
+      "text":"消息"
+      },
+      {
+        "pagePath":"pages/my/index",
+        "iconPath":"image/my.png",
+        "selectedIconPath":"image/my_press.png",
+        "text":"我的"
+        }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="user">
+    <image  background-size="cover" class="user-avatar" src="{{userInfo.avatarUrl}}"></image>
+    <text class="user-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view wx:for="{{list}}" wx:for-item="item">
+        <view class="graySpace"></view>
+        <view class="item-avatar-xs" wx:for="{{item.list_item}}" wx:for-item="i" data-log="{{i.name}}" data-url="{{i.url}}" bindtap="goPage">
+            <view>
+                <text class="title">{{i.name}}</text>
+            </view>
+        </view>
+    </view>
+</view>

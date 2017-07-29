@@ -1,0 +1,5 @@
+  <text class="title">我的优势</text>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <textarea  name="resume" value="{{userInfo.resume}}"/>
+    <button form-type="submit" bindtap="save"> 保存 </button>
+  </form>

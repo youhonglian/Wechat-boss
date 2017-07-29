@@ -1,0 +1,24 @@
+<view class="container">
+  <block wx:for="{{job}}" wx:key="item">
+    <view class="flex item" id="{{item.id}}" bindtap="clickjob"  data-url="{{item.url}}">
+      <view class="flex_auto item_left">
+        <view>
+          <text class="title">{{item.work}}</text>
+        </view>
+        <view>
+          <text class="sub_title">{{item.company}}</text>
+        </view>
+        <view class="require">
+          <text class="tag">{{item.place}}</text>
+          <text class="tag">{{item.expectYear}}</text>
+          <text class="tag last">{{item.academy}}</text>
+        </view>
+      </view>
+      <view class="item_right">
+        <view>
+          <text class="price">{{item.salary}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

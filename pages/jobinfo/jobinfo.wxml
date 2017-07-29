@@ -1,0 +1,26 @@
+<view class="container">
+  <!-- <block wx:for="" wx:key="item"> -->
+  <view class="head">
+    <text class="title">{{work}}</text>
+    <text class="price">【{{salary}}】</text>
+  </view>
+  <view class="detail">
+    <text class="detail-name">职位要求</text>
+    <text class="detail-job flex" style=" word-break: break-all" >{{detailjob}}</text>
+  </view>
+  <view class="skill">
+    <text class="skill-name">技能要求</text>
+    <text class="skill-job flex" style=" word-break: break-all" >{{skilljob}}</text>
+  </view>
+  <view class="address">
+    <text class="address-name">地址</text>
+    <text class="address-job flex" style=" word-break: break-all" >{{address}}</text>
+  </view>
+  <view class="boss">
+    <text class="boss-title">BOSS</text>
+    <image class="boss-avatar" background-size="cover" src="../../image/company.png"></image>
+    <text class="boss-name">{{bossname}}</text>
+  </view>
+  <button class="concact" bindtap="concactBoss">立即联系</button>
+  <!-- </block> -->
+</view>

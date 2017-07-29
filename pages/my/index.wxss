@@ -1,0 +1,31 @@
+.container{
+  padding: 10px 0px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:#F2f2f2;
+}
+.user{
+  display:flex;
+  align-items: center;
+  width:100%;
+  background-color:#fff;
+  padding-left:20px;
+}
+.user-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 10px;
+  border-radius: 50%;
+}
+.user-nickname{
+  color: #000;
+  margin-left:210px;
+}
+.graySpace {
+padding-left:40rpx;
+background:#eee;
+font-size:12px;
+min-height:30rpx;
+
+}

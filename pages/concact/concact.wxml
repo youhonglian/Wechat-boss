@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="main flex-item">
+      <ul class="chat-list" id="chat-list">
+          <li><span class="chat-context">您好</span><image class="userinfo-avatar"src="{{userInfo.avatarUrl}}" alt=""></image></li>
+          <li><span class="chat-context">您好</span><image class="userinfo-avatar"src="{{userInfo.avatarUrl}}" alt=""></image></li>
+      </ul>
+  </view>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="footer flex">
+        <input type="text" class="chat-input" name="input"/>
+        <button class="btn-send" formType="submit">发送</button>
+    </view>
+</form>
+
+</view>

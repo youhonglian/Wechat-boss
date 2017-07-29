@@ -1,0 +1,79 @@
+.container{
+  padding-top: 5px;
+}
+.head{
+  background-color: #fff;
+  width: 100%;
+  height: 150rpx;
+  margin-bottom: 5px;
+}
+.head .title{
+  font-size: 20px;
+  margin-left: 20px;
+  line-height: 67px;
+  /*width: 100%;*/
+}
+.head .price{
+  font-size: 20px;
+  margin-left: 60px;
+  line-height: 67px;
+  color: #FC7061;
+}
+.detail, .skill, .address,.boss{
+  background-color: #fff;
+  margin-top: 10px;
+  /*padding-right: 29px;*/
+  width: 100%;
+}
+.detail .detail-name,
+.skill .skill-name,
+.address .address-name,
+.boss .boss-title{
+  color: #00CDCD;
+  display: block;
+  width: 100%;
+  /*text-align: left;*/
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.detail .detail-name:after,
+.address .address-name:after,
+.skill .skill-name:after{
+  content:"";
+  position: absolute;
+  border-bottom: 1px solid #A8A8A8;
+}
+.detail .detail-job,
+.address .address-job,
+.skill .skill-job{
+  /*width: 100%;*/
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
+
+}
+.boss-avatar{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #00CDCD;
+  color: #fff;
+}
